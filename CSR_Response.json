@@ -1,0 +1,11 @@
+{
+	"correlationId": "CSR-EAA-6034",
+	"appId": "consignment-service",
+	"eventId": "cfdd0d37-e58f-421e-8776-8bfb6a7e7f9b",
+	"errors": null,
+	"messageStatus": "Fully processed without failure.",
+	"messageStatusCode": "DE-0",
+	"businessObjectId": 5009,
+	"businessObjectClass": null,
+	"serializedBusinessObject": null
+}

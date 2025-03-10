@@ -1,0 +1,490 @@
+{
+  "metadata": {
+    "aggregateId": "23316",
+    "aggregateEventSequence": 0,
+    "aggregateEventOrder": 0,
+    "aggregateRepositoryId": "consignment-service",
+    "aggregateType": "Consignment",
+    "appId": "consignment-service",
+    "businessKey": "23316",
+    "correlationId": "1e1ab5ac-fdae-4ae7-bca6-30269ff3c3d1",
+    "eventId": "fbdeeabf-a5fa-40bb-b2d6-43e7e45a2419",
+    "eventType": "MILESTONE",
+    "eventMessageVersion": "1.0",
+    "eventRecordedTime": 1740530366433,
+    "qualifiedEventName": "com.expd.enterprise.platform.events.consignment.ConsignmentResult",
+    "userLoginId": null,
+    "userLoginName": "exp.o Air",
+    "workBranch": null,
+    "requestType": "CREATE"
+  },
+  "data": {
+    "consignment": {
+      "id": "466106",
+      "consignmentId": "23316",
+      "transactionId": "105709",
+      "chargeableWeight": "17500",
+      "chargeableWeightRule": null,
+      "chargeableWeightUOM": "kg",
+      "commodityDescription": "BOOKS",
+      "customerAccountId": "C0017115D",
+      "customerProgramId": "G7179001",
+      "declaredValue": {
+        "currencyCode": "USD",
+        "value": "1500.00"
+      },
+      "documents": [],
+      "freightLines": [
+        {
+          "id": "466107",
+          "freightItems": [
+            {
+              "id": "466108",
+              "freightParts": [],
+              "packageInfo": null,
+              "references": [
+                {
+                  "id": "466109",
+                  "isPrimary": false,
+                  "printOnContract": false,
+                  "printOnLabel": true,
+                  "referenceNumber": "24373314",
+                  "referencePartyType": "SHIPPER",
+                  "referencePartyVisibilityTypes": [
+                    "SHIPPER",
+                    "CONSIGNEE"
+                  ],
+                  "referenceType": "ACS-exp.o Air Shipment Number",
+                  "createdBy": "exp.o Air",
+                  "createdDate": "2025-02-26 00:39:26.14310588",
+                  "lastModifiedBy": "exp.o Air",
+                  "lastModifiedDate": "2025-02-26 00:39:26.14310588",
+                  "version": 0
+                }
+              ],
+              "createdBy": "exp.o Air",
+              "createdDate": "2025-02-26 00:39:26.142717585",
+              "lastModifiedBy": "exp.o Air",
+              "lastModifiedDate": "2025-02-26 00:39:26.142717585",
+              "version": 0
+            }
+          ],
+          "packageInfo": {
+            "commodityDescription": "BOOKS",
+            "dangerousGoodsType": "NONE",
+            "declaredDimensionUOM": null,
+            "declaredHeight": null,
+            "declaredLength": "300",
+            "declaredQuantity": "300",
+            "declaredPackageType": "BXS-Box(es)",
+            "declaredVolume": "150",
+            "declaredVolumeUOM": "CR",
+            "declaredWeight": "120.0",
+            "declaredWeightUOM": "KG",
+            "declaredWidth": "150",
+            "receivedDimensionUOM": null,
+            "receivedHeight": null,
+            "receivedLength": null,
+            "receivedPackageType": null,
+            "receivedQuantity": null,
+            "receivedVolume": null,
+            "receivedVolumeUOM": null,
+            "receivedWeight": null,
+            "receivedWeightUOM": null,
+            "receivedWidth": null,
+            "restrictedCommodityType": "NONE"
+          },
+          "references": [
+            {
+              "id": "466110",
+              "isPrimary": false,
+              "printOnContract": false,
+              "printOnLabel": true,
+              "referenceNumber": "24373314",
+              "referencePartyType": "SHIPPER",
+              "referencePartyVisibilityTypes": [
+                "SHIPPER",
+                "CONSIGNEE"
+              ],
+              "referenceType": "ACS-exp.o Air Shipment Number",
+              "createdBy": "exp.o Air",
+              "createdDate": "2025-02-26 00:39:26.143457094",
+              "lastModifiedBy": "exp.o Air",
+              "lastModifiedDate": "2025-02-26 00:39:26.143457094",
+              "version": 0
+            }
+          ],
+          "createdBy": "exp.o Air",
+          "createdDate": "2025-02-26 00:39:26.142216452",
+          "lastModifiedBy": "exp.o Air",
+          "lastModifiedDate": "2025-02-26 00:39:26.142216452",
+          "version": 0
+        }
+      ],
+      "legacyFileReference": [
+        ""
+      ],
+      "locations": [
+        {
+          "id": "466111",
+          "locationId": "G7231642-PRIM",
+          "locationReferenceType": "SHIP_FROM",
+          "locationType": "CODED_LOCATION",
+          "createdBy": "exp.o Air",
+          "createdDate": "2025-02-26 00:39:26.143781429",
+          "lastModifiedBy": "exp.o Air",
+          "lastModifiedDate": "2025-02-26 00:39:26.143781429",
+          "version": 0
+        },
+        {
+          "id": "466112",
+          "locationId": "G7231644-PRIM",
+          "locationReferenceType": "SHIP_TO",
+          "locationType": "CODED_LOCATION",
+          "createdBy": "exp.o Air",
+          "createdDate": "2025-02-26 00:39:26.144105911",
+          "lastModifiedBy": "exp.o Air",
+          "lastModifiedDate": "2025-02-26 00:39:26.144105911",
+          "version": 0
+        },
+        {
+          "id": "466113",
+          "locationId": "SEA",
+          "locationReferenceType": "HB Origin Port",
+          "locationType": "UNIFIED_PORT",
+          "createdBy": "exp.o Air",
+          "createdDate": "2025-02-26 00:39:26.144431694",
+          "lastModifiedBy": "exp.o Air",
+          "lastModifiedDate": "2025-02-26 00:39:26.144431694",
+          "version": 0
+        },
+        {
+          "id": "466114",
+          "locationId": "ORD",
+          "locationReferenceType": "HB Destination Port",
+          "locationType": "UNIFIED_PORT",
+          "createdBy": "exp.o Air",
+          "createdDate": "2025-02-26 00:39:26.144867387",
+          "lastModifiedBy": "exp.o Air",
+          "lastModifiedDate": "2025-02-26 00:39:26.144867387",
+          "version": 0
+        }
+      ],
+      "parties": [
+        {
+          "id": "466115",
+          "partyId": "G7235272",
+          "partyTypes": [
+            "CONSIGNEE"
+          ],
+          "createdBy": "exp.o Air",
+          "createdDate": "2025-02-26 00:39:26.145176554",
+          "lastModifiedBy": "exp.o Air",
+          "lastModifiedDate": "2025-02-26 00:39:26.145176554",
+          "version": 0
+        },
+        {
+          "id": "466116",
+          "partyId": "G7235271",
+          "partyTypes": [
+            "SHIPPER"
+          ],
+          "createdBy": "exp.o Air",
+          "createdDate": "2025-02-26 00:39:26.14549474",
+          "lastModifiedBy": "exp.o Air",
+          "lastModifiedDate": "2025-02-26 00:39:26.14549474",
+          "version": 0
+        },
+        {
+          "id": "466117",
+          "partyId": "G7235273",
+          "partyTypes": [
+            "BILLING PARTY"
+          ],
+          "createdBy": "exp.o Air",
+          "createdDate": "2025-02-26 00:39:26.145834122",
+          "lastModifiedBy": "exp.o Air",
+          "lastModifiedDate": "2025-02-26 00:39:26.145834122",
+          "version": 0
+        }
+      ],
+      "references": [
+        {
+          "id": "466118",
+          "isPrimary": false,
+          "printOnContract": false,
+          "printOnLabel": true,
+          "referenceNumber": "24373314",
+          "referencePartyType": "SHIPPER",
+          "referencePartyVisibilityTypes": [
+            "SHIPPER",
+            "CONSIGNEE"
+          ],
+          "referenceType": "ACS-exp.o Air Shipment Number",
+          "createdBy": "exp.o Air",
+          "createdDate": "2025-02-26 00:39:26.146150006",
+          "lastModifiedBy": "exp.o Air",
+          "lastModifiedDate": "2025-02-26 00:39:26.146150006",
+          "version": 0
+        }
+      ],
+      "state": "OPEN",
+      "volumetricWeight": "16677",
+      "volumetricWeightRule": null,
+      "volumetricWeightUOM": "kg",
+      "createdBy": "exp.o Air",
+      "createdDate": "2025-02-26 00:39:26.140953786",
+      "lastModifiedBy": "exp.o Air",
+      "lastModifiedDate": "2025-02-26 00:39:26.146273082",
+      "version": 1
+    },
+    "consignmentId": "23316",
+    "consignmentRequest": {
+      "metadata": {
+        "aggregateId": "dd113d02-1105-4100-b949-7f3fa81f593a",
+        "aggregateEventSequence": null,
+        "aggregateEventOrder": 1740530364799,
+        "aggregateRepositoryId": "consignment-service",
+        "aggregateType": "Consignment",
+        "appId": "transactionmanager-service",
+        "businessKey": "dd113d02-1105-4100-b949-7f3fa81f593a",
+        "correlationId": "1e1ab5ac-fdae-4ae7-bca6-30269ff3c3d1",
+        "eventId": "1839d8f4-b920-4e62-95db-4947ca9d0b36",
+        "eventType": "MILESTONE",
+        "eventMessageVersion": "1.0",
+        "eventRecordedTime": 1740530364799,
+        "qualifiedEventName": "com.expd.enterprise.platform.events.consignment.ConsignmentRequest",
+        "userLoginId": null,
+        "userLoginName": "exp.o Air",
+        "workBranch": null,
+        "requestType": "CREATE"
+      },
+      "data": {
+        "requestType": "CREATE",
+        "requestStrategy": null,
+        "consignmentId": null,
+        "consignment": {
+          "id": null,
+          "consignmentId": null,
+          "transactionId": "105709",
+          "chargeableWeight": "17500",
+          "chargeableWeightRule": null,
+          "chargeableWeightUOM": "kg",
+          "commodityDescription": "BOOKS",
+          "customerAccountId": "C0017115D",
+          "customerProgramId": "G7179001",
+          "declaredValue": {
+            "currencyCode": "USD",
+            "value": "1500.00"
+          },
+          "documents": [],
+          "freightLines": [
+            {
+              "id": "985797",
+              "freightItems": [
+                {
+                  "id": "985798",
+                  "freightParts": [],
+                  "packageInfo": null,
+                  "references": [
+                    {
+                      "id": "985799",
+                      "isPrimary": false,
+                      "printOnContract": false,
+                      "printOnLabel": true,
+                      "referenceNumber": "24373314",
+                      "referencePartyType": "SHIPPER",
+                      "referencePartyVisibilityTypes": [
+                        "SHIPPER",
+                        "CONSIGNEE"
+                      ],
+                      "referenceType": "ACS-exp.o Air Shipment Number",
+                      "createdBy": "exp.o Air",
+                      "createdDate": "2025-02-26 00:39:23.538440804",
+                      "lastModifiedBy": "exp.o Air",
+                      "lastModifiedDate": "2025-02-26 00:39:23.538440804",
+                      "version": 0
+                    }
+                  ],
+                  "createdBy": "exp.o Air",
+                  "createdDate": "2025-02-26 00:39:23.538251291",
+                  "lastModifiedBy": "exp.o Air",
+                  "lastModifiedDate": "2025-02-26 00:39:23.538251291",
+                  "version": 0
+                }
+              ],
+              "packageInfo": {
+                "commodityDescription": "BOOKS",
+                "dangerousGoodsType": "NONE",
+                "declaredDimensionUOM": null,
+                "declaredHeight": null,
+                "declaredLength": "300",
+                "declaredQuantity": "300",
+                "declaredPackageType": "BXS-Box(es)",
+                "declaredVolume": "150",
+                "declaredVolumeUOM": "CR",
+                "declaredWeight": "120.0",
+                "declaredWeightUOM": "KG",
+                "declaredWidth": "150",
+                "receivedDimensionUOM": null,
+                "receivedHeight": null,
+                "receivedLength": null,
+                "receivedPackageType": null,
+                "receivedQuantity": null,
+                "receivedVolume": null,
+                "receivedVolumeUOM": null,
+                "receivedWeight": null,
+                "receivedWeightUOM": null,
+                "receivedWidth": null,
+                "restrictedCommodityType": "NONE"
+              },
+              "references": [
+                {
+                  "id": "985800",
+                  "isPrimary": false,
+                  "printOnContract": false,
+                  "printOnLabel": true,
+                  "referenceNumber": "24373314",
+                  "referencePartyType": "SHIPPER",
+                  "referencePartyVisibilityTypes": [
+                    "SHIPPER",
+                    "CONSIGNEE"
+                  ],
+                  "referenceType": "ACS-exp.o Air Shipment Number",
+                  "createdBy": "exp.o Air",
+                  "createdDate": "2025-02-26 00:39:23.538663792",
+                  "lastModifiedBy": "exp.o Air",
+                  "lastModifiedDate": "2025-02-26 00:39:23.538663792",
+                  "version": 0
+                }
+              ],
+              "createdBy": "exp.o Air",
+              "createdDate": "2025-02-26 00:39:23.538036415",
+              "lastModifiedBy": "exp.o Air",
+              "lastModifiedDate": "2025-02-26 00:39:23.538036415",
+              "version": 0
+            }
+          ],
+          "legacyFileReference": [
+            ""
+          ],
+          "locations": [
+            {
+              "id": "985806",
+              "locationId": "G7231642-PRIM",
+              "locationReferenceType": "SHIP_FROM",
+              "locationType": "CODED_LOCATION",
+              "createdBy": "exp.o Air",
+              "createdDate": "2025-02-26 00:39:23.540293504",
+              "lastModifiedBy": "exp.o Air",
+              "lastModifiedDate": "2025-02-26 00:39:23.540293504",
+              "version": 0
+            },
+            {
+              "id": "985807",
+              "locationId": "G7231644-PRIM",
+              "locationReferenceType": "SHIP_TO",
+              "locationType": "CODED_LOCATION",
+              "createdBy": "exp.o Air",
+              "createdDate": "2025-02-26 00:39:23.540565487",
+              "lastModifiedBy": "exp.o Air",
+              "lastModifiedDate": "2025-02-26 00:39:23.540565487",
+              "version": 0
+            },
+            {
+              "id": "985808",
+              "locationId": "SEA",
+              "locationReferenceType": "HB Origin Port",
+              "locationType": "UNIFIED_PORT",
+              "createdBy": "exp.o Air",
+              "createdDate": "2025-02-26 00:39:23.540782111",
+              "lastModifiedBy": "exp.o Air",
+              "lastModifiedDate": "2025-02-26 00:39:23.540782111",
+              "version": 0
+            },
+            {
+              "id": "985809",
+              "locationId": "ORD",
+              "locationReferenceType": "HB Destination Port",
+              "locationType": "UNIFIED_PORT",
+              "createdBy": "exp.o Air",
+              "createdDate": "2025-02-26 00:39:23.540979878",
+              "lastModifiedBy": "exp.o Air",
+              "lastModifiedDate": "2025-02-26 00:39:23.540979878",
+              "version": 0
+            }
+          ],
+          "parties": [
+            {
+              "id": "985810",
+              "partyId": "G7235272",
+              "partyTypes": [
+                "CONSIGNEE"
+              ],
+              "createdBy": "exp.o Air",
+              "createdDate": "2025-02-26 00:39:23.541242905",
+              "lastModifiedBy": "exp.o Air",
+              "lastModifiedDate": "2025-02-26 00:39:23.541242905",
+              "version": 0
+            },
+            {
+              "id": "985811",
+              "partyId": "G7235271",
+              "partyTypes": [
+                "SHIPPER"
+              ],
+              "createdBy": "exp.o Air",
+              "createdDate": "2025-02-26 00:39:23.541538438",
+              "lastModifiedBy": "exp.o Air",
+              "lastModifiedDate": "2025-02-26 00:39:23.541538438",
+              "version": 0
+            },
+            {
+              "id": "985812",
+              "partyId": "G7235273",
+              "partyTypes": [
+                "BILLING PARTY"
+              ],
+              "createdBy": "exp.o Air",
+              "createdDate": "2025-02-26 00:39:23.541785286",
+              "lastModifiedBy": "exp.o Air",
+              "lastModifiedDate": "2025-02-26 00:39:23.541785286",
+              "version": 0
+            }
+          ],
+          "references": [
+            {
+              "id": "985813",
+              "isPrimary": false,
+              "printOnContract": false,
+              "printOnLabel": true,
+              "referenceNumber": "24373314",
+              "referencePartyType": "SHIPPER",
+              "referencePartyVisibilityTypes": [
+                "SHIPPER",
+                "CONSIGNEE"
+              ],
+              "referenceType": "ACS-exp.o Air Shipment Number",
+              "createdBy": "exp.o Air",
+              "createdDate": "2025-02-26 00:39:23.54200532",
+              "lastModifiedBy": "exp.o Air",
+              "lastModifiedDate": "2025-02-26 00:39:23.54200532",
+              "version": 0
+            }
+          ],
+          "state": "OPEN",
+          "volumetricWeight": "16677",
+          "volumetricWeightRule": null,
+          "volumetricWeightUOM": "kg",
+          "createdBy": null,
+          "createdDate": null,
+          "lastModifiedBy": null,
+          "lastModifiedDate": null,
+          "version": null
+        }
+      }
+    },
+    "errors": [],
+    "messageStatusCode": "DE-0"
+  }
+}

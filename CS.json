@@ -1,0 +1,250 @@
+{
+  "metadata": {
+    "aggregateId": "1822294",
+    "aggregateEventSequence": 0,
+    "aggregateEventOrder": 0,
+    "aggregateRepositoryId": "customershipment-service",
+    "aggregateType": "CustomerShipment",
+    "appId": "customershipment-service",
+    "businessKey": "1822294",
+    "correlationId": "bf66e2cc-a955-4be7-8af2-dc19a03b8533",
+    "eventId": "4e0b971c-f9cb-4484-aa58-621ed50ff0f2",
+    "eventType": "MILESTONE",
+    "eventMessageVersion": "1.0",
+    "eventRecordedTime": 1740530365492,
+    "qualifiedEventName": "com.expd.enterprise.platform.events.customershipment.CustomerShipmentResult",
+    "userLoginId": null,
+    "userLoginName": "exp.o Air",
+    "workBranch": null,
+    "requestType": "CREATE"
+  },
+  "data": {
+    "customerShipment": {
+      "id": "1822294",
+      "customerAccountId": "C0017115D",
+      "customerProgramId": "G7179001",
+      "customerShipmentId": "1822294",
+      "transactionId": "105709",
+      "documents": [],
+      "legacyFileReference": [],
+      "locations": [
+        {
+          "id": "1822295",
+          "locationId": "G7231642-PRIM",
+          "locationReferenceType": "SHIP_FROM",
+          "locationType": "CODED_LOCATION",
+          "createdBy": "exp.o Air",
+          "createdDate": "2025-02-26 00:39:25.052465228",
+          "lastModifiedBy": "exp.o Air",
+          "lastModifiedDate": "2025-02-26 00:39:25.052465228",
+          "version": 0
+        },
+        {
+          "id": "1822296",
+          "locationId": "G7231644-PRIM",
+          "locationReferenceType": "SHIP_TO",
+          "locationType": "CODED_LOCATION",
+          "createdBy": "exp.o Air",
+          "createdDate": "2025-02-26 00:39:25.052894857",
+          "lastModifiedBy": "exp.o Air",
+          "lastModifiedDate": "2025-02-26 00:39:25.052894857",
+          "version": 0
+        },
+        {
+          "id": "1822297",
+          "locationId": "SEA",
+          "locationReferenceType": "HB Origin Port",
+          "locationType": "UNIFIED_PORT",
+          "createdBy": "exp.o Air",
+          "createdDate": "2025-02-26 00:39:25.053261673",
+          "lastModifiedBy": "exp.o Air",
+          "lastModifiedDate": "2025-02-26 00:39:25.053261673",
+          "version": 0
+        },
+        {
+          "id": "1822298",
+          "locationId": "ORD",
+          "locationReferenceType": "HB Destination Port",
+          "locationType": "UNIFIED_PORT",
+          "createdBy": "exp.o Air",
+          "createdDate": "2025-02-26 00:39:25.053641861",
+          "lastModifiedBy": "exp.o Air",
+          "lastModifiedDate": "2025-02-26 00:39:25.053641861",
+          "version": 0
+        }
+      ],
+      "parties": [
+        {
+          "id": "1822299",
+          "partyId": "G7235272",
+          "partyTypes": [
+            "CONSIGNEE"
+          ],
+          "createdBy": "exp.o Air",
+          "createdDate": "2025-02-26 00:39:25.054035217",
+          "lastModifiedBy": "exp.o Air",
+          "lastModifiedDate": "2025-02-26 00:39:25.054035217",
+          "version": 0
+        },
+        {
+          "id": "1822300",
+          "partyId": "G7235271",
+          "partyTypes": [
+            "SHIPPER"
+          ],
+          "createdBy": "exp.o Air",
+          "createdDate": "2025-02-26 00:39:25.054440995",
+          "lastModifiedBy": "exp.o Air",
+          "lastModifiedDate": "2025-02-26 00:39:25.054440995",
+          "version": 0
+        },
+        {
+          "id": "1822301",
+          "partyId": "G7235273",
+          "partyTypes": [
+            "BILLING PARTY"
+          ],
+          "createdBy": "exp.o Air",
+          "createdDate": "2025-02-26 00:39:25.054845826",
+          "lastModifiedBy": "exp.o Air",
+          "lastModifiedDate": "2025-02-26 00:39:25.054845826",
+          "version": 0
+        }
+      ],
+      "references": [],
+      "state": "OPEN",
+      "createdBy": "exp.o Air",
+      "createdDate": "2025-02-26 00:39:25.051956883",
+      "lastModifiedBy": "exp.o Air",
+      "lastModifiedDate": "2025-02-26 00:39:25.051956883",
+      "version": 0
+    },
+    "customerShipmentRequest": {
+      "metadata": {
+        "aggregateId": "691029d3-d5f0-4b8e-b5e1-8af8057affa3",
+        "aggregateEventSequence": null,
+        "aggregateEventOrder": 1740530364742,
+        "aggregateRepositoryId": "customerShipment-service",
+        "aggregateType": "CustomerShipment",
+        "appId": "transactionmanager-service",
+        "businessKey": "691029d3-d5f0-4b8e-b5e1-8af8057affa3",
+        "correlationId": "bf66e2cc-a955-4be7-8af2-dc19a03b8533",
+        "eventId": "1a678b9f-2323-484c-a251-1fb7463a308e",
+        "eventType": "MILESTONE",
+        "eventMessageVersion": "1.0",
+        "eventRecordedTime": 1740530364742,
+        "qualifiedEventName": "com.expd.enterprise.platform.events.customershipment.CustomerShipmentRequest",
+        "userLoginId": null,
+        "userLoginName": "exp.o Air",
+        "workBranch": null,
+        "requestType": "CREATE"
+      },
+      "data": {
+        "requestType": "CREATE",
+        "customerShipmentId": null,
+        "customerShipment": {
+          "id": null,
+          "customerAccountId": "C0017115D",
+          "customerProgramId": "G7179001",
+          "customerShipmentId": null,
+          "transactionId": "105709",
+          "documents": [],
+          "legacyFileReference": [],
+          "locations": [
+            {
+              "id": null,
+              "locationId": "G7231642-PRIM",
+              "locationReferenceType": "SHIP_FROM",
+              "locationType": "CODED_LOCATION",
+              "createdBy": null,
+              "createdDate": null,
+              "lastModifiedBy": null,
+              "lastModifiedDate": null,
+              "version": null
+            },
+            {
+              "id": null,
+              "locationId": "G7231644-PRIM",
+              "locationReferenceType": "SHIP_TO",
+              "locationType": "CODED_LOCATION",
+              "createdBy": null,
+              "createdDate": null,
+              "lastModifiedBy": null,
+              "lastModifiedDate": null,
+              "version": null
+            },
+            {
+              "id": null,
+              "locationId": "SEA",
+              "locationReferenceType": "HB Origin Port",
+              "locationType": "UNIFIED_PORT",
+              "createdBy": null,
+              "createdDate": null,
+              "lastModifiedBy": null,
+              "lastModifiedDate": null,
+              "version": null
+            },
+            {
+              "id": null,
+              "locationId": "ORD",
+              "locationReferenceType": "HB Destination Port",
+              "locationType": "UNIFIED_PORT",
+              "createdBy": null,
+              "createdDate": null,
+              "lastModifiedBy": null,
+              "lastModifiedDate": null,
+              "version": null
+            }
+          ],
+          "parties": [
+            {
+              "id": null,
+              "partyId": "G7235272",
+              "partyTypes": [
+                "CONSIGNEE"
+              ],
+              "createdBy": null,
+              "createdDate": null,
+              "lastModifiedBy": null,
+              "lastModifiedDate": null,
+              "version": null
+            },
+            {
+              "id": null,
+              "partyId": "G7235271",
+              "partyTypes": [
+                "SHIPPER"
+              ],
+              "createdBy": null,
+              "createdDate": null,
+              "lastModifiedBy": null,
+              "lastModifiedDate": null,
+              "version": null
+            },
+            {
+              "id": null,
+              "partyId": "G7235273",
+              "partyTypes": [
+                "BILLING PARTY"
+              ],
+              "createdBy": null,
+              "createdDate": null,
+              "lastModifiedBy": null,
+              "lastModifiedDate": null,
+              "version": null
+            }
+          ],
+          "references": [],
+          "state": "OPEN",
+          "createdBy": null,
+          "createdDate": null,
+          "lastModifiedBy": null,
+          "lastModifiedDate": null,
+          "version": null
+        }
+      }
+    },
+    "errors": [],
+    "messageStatusCode": "DE-0"
+  }
+}
