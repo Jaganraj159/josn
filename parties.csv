@@ -1,0 +1,4 @@
+customerShipmentId,partyId,partyTypes,createdBy,createdDate,lastModifiedBy
+23316,G7235272,CONSIGNEE,exp.o Air,2025-02-26 00:39:26.145176554,exp.o Air
+23316,G7235271,SHIPPER,exp.o Air,2025-02-26 00:39:26.14549474,exp.o Air
+23316,G7235273,BILLING PARTY,exp.o Air,2025-02-26 00:39:26.145834122,exp.o Air
